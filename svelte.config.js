@@ -10,9 +10,6 @@ import rehypeSlug from 'rehype-slug';
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexConfig = {
   extensions: ['.md'],
-  layout: {
-    _: '/src/mdsvex.svelte',
-  },
   highlight: {
     highlighter: async (code, lang = 'text') => {
       const highlighter = await shiki.getHighlighter({

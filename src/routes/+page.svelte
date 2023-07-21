@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import Hero from '$lib/components/Hero.svelte'
+  import About from '$lib/components/About.svelte'
+  import Contact from '$lib/components/Contact.svelte'
+</script>
+
+<div>
+  <section>
+    <Hero/>
+  </section>
+  <section>
+    <About />
+  </section>
+  <section>
+    <Contact />
+  </section>
+</div>
