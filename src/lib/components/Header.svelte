@@ -1,23 +1,9 @@
-<header>
-<nav>
-  <a href="/">Razaq Himawan</a>
-    
-  <ul>
-    <li>
-      <a href="/">Home</a>
-    </li>
-    <li>     
-      <a href="#about">About Me</a>
-    </li>
-    <li>
-      <a href="#contact">Contact</a>
-    </li>
-    <li>
-      <a href="#projects">Projects</a>
-    </li>
-   <li>
-      <a href="/blog">Blog</a>
-    </li>
-  </ul>
-</nav>
+<header class="py-2">
+  <div class="flex justify-center">
+    <a
+      href="/"
+      class="text-3xl font-semibold min-h-[48px] grid place-items-center text-text dark:text-dark-text
+      ">Razaq Himawan</a
+    >
+  </div>
 </header>
