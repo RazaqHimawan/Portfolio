@@ -8,7 +8,7 @@ let isOpen = false;
 $: drawer = isOpen ? 'left-0' : '-left-60';
 </script>
 
-<div class="h-screen bg-background dark:bg-dark-background">
+<div class="h-full bg-background dark:bg-dark-background">
   <Header />
 
   <Sidebar
@@ -18,7 +18,7 @@ $: drawer = isOpen ? 'left-0' : '-left-60';
     hamburgerClick={() => (isOpen = !isOpen)}
   />
 
-  <main class="pt-4 px-8 text-text dark:text-dark-text flex flex-col">
+  <main class="py-4 px-8 text-text dark:text-dark-text flex flex-col">
     <slot />
   </main>
   <!-- <Footer /> -->

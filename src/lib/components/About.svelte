@@ -1,9 +1,10 @@
 <hgroup class="font-semibold">
-  <h1 class="text-3xl">
-    Hi, I'm <span class="text-accent dark:text-dark-accent">Razaq Himawan</span>
+  <div class="text-2xl">Hi,</div>
+  <h1 class="text-2xl">
+    I'm <span class="text-accent dark:text-dark-accent">Razaq Himawan</span>
     👋
   </h1>
-  <h2 class="text-xl mt-1">Front-end web developer</h2>
+  <h2 class="text-lg mt-1">Front-end web developer</h2>
   <p class="text-lg font-normal mt-2">
     I am a front-end developer who is currently based in Bandung, Indonesia.
   </p>

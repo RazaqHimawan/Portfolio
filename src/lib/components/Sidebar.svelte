@@ -21,7 +21,7 @@ const anchor =
   class:modal={isOpen}
 >
   <aside
-    class="w-60 h-full py-4 px-6 bg-secondary {drawer} fixed top-0 transition-all ease-in-out duration-300 dark:bg-dark-secondary"
+    class="w-60 h-full py-4 px-6 bg-secondary {drawer} absolute top-0 transition-all ease-in-out duration-300 dark:bg-dark-secondary"
     on:click|stopPropagation
   >
     <button
