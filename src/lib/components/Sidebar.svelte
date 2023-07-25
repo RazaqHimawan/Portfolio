@@ -62,14 +62,7 @@ const anchor =
         <li>
           <a
             class={anchor}
-            class:scale-110={$page.route.id === '/contact'}
-            href="/contact">Contact</a
-          >
-        </li>
-        <li>
-          <a
-            class={anchor}
-            href="/blog">Blog</a
+            href="/">Blog</a
           >
         </li>
       </ul>
@@ -78,6 +71,7 @@ const anchor =
         <a
           class="p-3 mx-2 dark:fill-dark-text"
           href="https://www.linkedin.com/in/razaq-himawan/"
+          target="_blank"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -96,6 +90,7 @@ const anchor =
         <a
           class="p-3 mx-2 dark:fill-dark-text"
           href="https://github.com/RazaqHimawan"
+          target="_blank"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

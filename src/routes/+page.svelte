@@ -1,17 +1,27 @@
 <script lang="ts">
-import Hero from '$lib/components/Hero.svelte';
 import About from '$lib/components/About.svelte';
-import Contact from '$lib/components/Contact.svelte';
+import Projects from '$lib/components/Projects.svelte';
+import Skills from '$lib/components/Skills.svelte';
+
+const project = {
+  title: 'Portfolio Website',
+  description: 'My portfolio website',
+  githubLink: '/',
+  websiteLink: '/',
+};
 </script>
 
-<div>
-  <section>
-    <Hero />
-  </section>
-  <!-- <section>
-    <About />
-  </section>
-  <section>
-    <Contact />
-  </section> -->
-</div>
+<svelte:head>
+  <title>Razaq Himawan | Home</title>
+</svelte:head>
+
+<section>
+  <About />
+</section>
+<section>
+  <h2 class="text-3xl font-semibold mb-4">
+    My Skills
+    <span class="font-mono text-accent dark:text-dark-accent">{`</>`}</span>
+  </h2>
+  <Skills />
+</section>

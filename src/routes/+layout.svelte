@@ -17,7 +17,8 @@ $: drawer = isOpen ? 'left-0' : '-left-60';
     modalClick={() => (isOpen = false)}
     hamburgerClick={() => (isOpen = !isOpen)}
   />
-  <main>
+
+  <main class="pt-4 px-8 text-text dark:text-dark-text flex flex-col">
     <slot />
   </main>
   <!-- <Footer /> -->
