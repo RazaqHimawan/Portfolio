@@ -9,12 +9,14 @@ export let project: Project;
   <p class="mt-2 mb-4">{project.description}</p>
   <div class="flex gap-4">
     <a
-      class="rounded-md px-4 py-3 bg-dark-secondary text-dark-text transition-all duration-500 hover:bg-primary hover:text-text"
+      class="bg-primary px-4 py-3 rounded-md transition-all duration-500 dark:bg-dark-secondary hover:bg-dark-secondary hover:text-dark-text hover:dark:bg-dark-primary
+      hover:dark:text-text"
       href={project.githubLink}
       >Github
     </a>
     <a
-      class="rounded-md px-4 py-3 bg-dark-secondary text-dark-text transition-all duration-500 hover:bg-primary hover:text-text"
+      class="bg-primary px-4 py-3 rounded-md transition-all duration-500 dark:bg-dark-secondary hover:bg-dark-secondary hover:text-dark-text hover:dark:bg-dark-primary
+      hover:dark:text-text"
       href={project.websiteLink}
       >Visit
     </a>

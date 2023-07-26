@@ -21,12 +21,12 @@ const anchor =
   class:modal={isOpen}
 >
   <aside
-    class="w-60 h-full py-4 px-6 bg-secondary {drawer} absolute top-0 transition-all ease-in-out duration-300 dark:bg-dark-secondary"
+    class="w-60 h-full py-4 px-6 bg-secondary {drawer} absolute top-0 transition-all ease-in-out duration-300 dark:bg-dark-secondary md:left-0 md:fixed"
     on:click|stopPropagation
   >
     <button
       on:click={hamburgerClick}
-      class="absolute top-2 -right-[62px] min-h-[48px] min-w-[48px] grid place-items-center"
+      class="absolute top-2 -right-[62px] min-h-[48px] min-w-[48px] grid place-items-center md:hidden"
     >
       <div class="flex flex-col gap-2">
         <div
@@ -62,7 +62,7 @@ const anchor =
         <li>
           <a
             class={anchor}
-            href="/">Blog</a
+            href="/blog">Blog</a
           >
         </li>
       </ul>

@@ -1,4 +1,4 @@
-<header class="py-2 border-b-accent dark:border-b-dark-accent border-b">
+<header class="py-2 shadow-sm shadow-accent dark:shadow-dark-accent">
   <div class="flex justify-center">
     <a
       href="/"
