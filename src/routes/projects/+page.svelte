@@ -9,6 +9,8 @@ import { projects } from '$lib/data/projects';
 
 <h2 class="text-3xl font-semibold mb-2">My Projects</h2>
 
-{#each projects as project (project.id)}
-  <Projects {project} />
-{/each}
+<section>
+  {#each projects as project (project.id)}
+    <Projects {project} />
+  {/each}
+</section>

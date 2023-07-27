@@ -62,6 +62,7 @@ const anchor =
         <li>
           <a
             class={anchor}
+            class:scale-110={$page.route.id === '/blog'}
             href="/blog">Blog</a
           >
         </li>

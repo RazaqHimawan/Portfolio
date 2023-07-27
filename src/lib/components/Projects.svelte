@@ -4,7 +4,7 @@ import type { Project } from '$lib/types';
 export let project: Project;
 </script>
 
-<div class="flex flex-col my-4 p-4 border border-accent rounded-md">
+<div class="flex flex-col my-8 p-4 border border-accent rounded-md">
   <h3 class="text-2xl font-semibold">{project.title}</h3>
   <p class="mt-2 mb-4">{project.description}</p>
   <div class="flex gap-4">
