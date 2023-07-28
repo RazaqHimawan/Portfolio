@@ -33,12 +33,12 @@ h6 {
 }
 
 .prose p:not(:is(h2, h3, h4, h5, h6) + p) {
-  margin-top: 1rem;
+  margin-block: 1rem;
 }
 
 .prose :is(ul, ol) {
   list-style-type: decimal;
-  padding-inline: 2rem;
+  padding-inline-start: 2rem;
   border-radius: 8px;
   background-color: rgb(21, 30, 29);
   color: #fff;

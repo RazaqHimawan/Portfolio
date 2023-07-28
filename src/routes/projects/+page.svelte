@@ -7,10 +7,19 @@ import { projects } from '$lib/data/projects';
   <title>Razaq Himawan | Projects</title>
 </svelte:head>
 
-<h2 class="text-3xl font-semibold mb-2">My Projects</h2>
+<h2 class="text-3xl font-semibold mb-8">My Projects</h2>
 
 <section>
   {#each projects as project (project.id)}
     <Projects {project} />
   {/each}
 </section>
+
+<style>
+section {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+</style>

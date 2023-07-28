@@ -18,8 +18,8 @@ const { meta, content } = data.post;
   />
 </svelte:head>
 
-<article>
-  <hgroup class="lg:text-center">
+<article class="lg:w-[600px]">
+  <hgroup class="text-center">
     <h1 class="text-5xl font-semibold uppercase">{meta.title}</h1>
     <p>Published at {formatDate(meta.date)}</p>
   </hgroup>
@@ -42,5 +42,6 @@ article {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: auto;
 }
 </style>

@@ -10,12 +10,14 @@ $: drawer = isOpen ? 'left-0' : '-left-60';
 <div
   class="h-full min-h-screen bg-background dark:bg-dark-background text-text dark:text-dark-text md:ml-60"
 >
-  <Header />
+  <Header
+    {isOpen}
+    hamburgerClick={() => (isOpen = !isOpen)}
+  />
   <Sidebar
     {drawer}
     {isOpen}
     modalClick={() => (isOpen = false)}
-    hamburgerClick={() => (isOpen = !isOpen)}
   />
 
   <main class="p-8">

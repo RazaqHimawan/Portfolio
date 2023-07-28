@@ -5,9 +5,6 @@ import Toggle from './Toggle.svelte';
 export let drawer = '-left-60';
 export let isOpen = false;
 export let modalClick: () => void;
-export let hamburgerClick: () => void;
-
-const line = 'w-6 h-1 rounded-xl bg-text dark:bg-dark-text';
 const anchor =
   'flex px-4 py-2 shadow-sm rounded-xl border-2 border-accent text-text font-semibold text-lg hover:scale-110 hover:opacity-70 dark:border-dark-accent dark:text-dark-text';
 </script>
@@ -24,24 +21,6 @@ const anchor =
     class="w-60 h-full py-4 px-6 bg-secondary {drawer} absolute top-0 transition-all ease-in-out duration-300 dark:bg-dark-secondary md:left-0 md:fixed"
     on:click|stopPropagation
   >
-    <button
-      on:click={hamburgerClick}
-      class="absolute top-2 -right-[62px] min-h-[48px] min-w-[48px] grid place-items-center md:hidden"
-    >
-      <div class="flex flex-col gap-2">
-        <div
-          class={line}
-          class:bg-white={isOpen}
-          class:firstLine={isOpen}
-        />
-        <div
-          class={line}
-          class:bg-white={isOpen}
-          class:secondLine={isOpen}
-        />
-      </div>
-    </button>
-
     <div class="flex flex-col h-full">
       <Toggle />
       <ul class="flex flex-col gap-4">
@@ -120,14 +99,5 @@ const anchor =
   background-color: rgba(0, 0, 0, 0.8);
 
   transition: background-color 300ms ease-in-out;
-}
-
-.firstLine {
-  transform: translateY(6px) rotate(45deg);
-  transition: all 500ms ease-in-out;
-}
-.secondLine {
-  transform: translateY(-6px) rotate(-45deg);
-  transition: all 500ms ease-in-out;
 }
 </style>
