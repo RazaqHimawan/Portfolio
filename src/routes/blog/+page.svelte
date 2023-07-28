@@ -7,7 +7,7 @@ export let data;
 <svelte:head>
   <title>Razaq Himawan | Blog</title>
 </svelte:head>
-
+<p />
 <h2 class="text-3xl font-semibold">Latest</h2>
 
 <section class="my-8">

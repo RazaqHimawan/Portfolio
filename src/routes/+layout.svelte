@@ -18,7 +18,7 @@ $: drawer = isOpen ? 'left-0' : '-left-60';
     hamburgerClick={() => (isOpen = !isOpen)}
   />
 
-  <main class="py-4 px-8">
+  <main class="p-8">
     <slot />
   </main>
 </div>

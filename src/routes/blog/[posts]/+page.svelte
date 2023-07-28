@@ -19,14 +19,16 @@ const { meta, content } = data.post;
 </svelte:head>
 
 <article>
-  <hgroup>
-    <h1>{meta.title}</h1>
+  <hgroup class="lg:text-center">
+    <h1 class="text-5xl font-semibold uppercase">{meta.title}</h1>
     <p>Published at {formatDate(meta.date)}</p>
   </hgroup>
 
-  <div class="tags">
+  <div class="mt-1 mb-4">
     {#each meta.categories as category}
-      <span class="surface-4">&num;{category} </span>
+      <span class="text-dark-text bg-dark-secondary mr-2 px-2 py-1 rounded-md"
+        >&num;{category}</span
+      >
     {/each}
   </div>
 
@@ -34,3 +36,11 @@ const { meta, content } = data.post;
     <svelte:component this={content} />
   </div>
 </article>
+
+<style>
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+</style>
