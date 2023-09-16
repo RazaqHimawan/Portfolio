@@ -60,3 +60,14 @@ h6 {
   border-radius: 8px;
   tab-size: 2;
 }
+
+table,
+td,
+th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}

@@ -8,7 +8,9 @@ categories:
 published: true
 ---
 
-# Introduction to a system database
+## Table of contents
+
+## Introduction to a system database
 
 Today, I learned about what is a system database.
 
