@@ -52,7 +52,7 @@ IPK = Indeks Prestasi Kumulatif
 
 IP is an assessment system applied on campus and is the result of adding up all the grades for the courses you complete during 1 semester.
 
-IP Formula: $$Total\text{ }(SKS * Point) \over (Total\text{ }SKS)$$
+IP Formula: $$Total\ (SKS * Point) \over (Total\ SKS)$$
 
 Example:
 
@@ -67,10 +67,10 @@ Example:
 | Etika                       | 2   | A     | 4     | 6           |
 | Jumlah                      | 21  |       |       | 70          |
 
-IP semester = $${{70} \over {21}} = 3,33  $$
+IP semester = $${{70} \over {21}} = 3,33$$
 
 ### IPK
 
 IPK is the result of combining your grades from semester 1 to the final semester. This figure shows the success level of studies at university with the highest score being 4.
 
-IPK Formula: $$Total\text{ }of\text{ } All\text{ }(SKS * Point) \over (Total\text{ } of\text{ } All\text{ } SKS)$$
+IPK Formula: $$Total\ of\ All\ (SKS * Point) \over (Total\ of\ All\ SKS)$$
