@@ -5,7 +5,10 @@ import { escapeSvelte, mdsvex } from 'mdsvex';
 import shiki from 'shiki';
 import remarkUnwrapImages from 'remark-unwrap-images';
 import remarkToc from 'remark-toc';
+
 import rehypeSlug from 'rehype-slug';
+import rehypeKatexSvelte from 'rehype-katex-svelte';
+import remarkMath from 'remark-math';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexConfig = {
@@ -19,8 +22,8 @@ const mdsvexConfig = {
       return `{@html \`${html}\`}`;
     },
   },
-  remarkPlugins: [remarkUnwrapImages, remarkToc],
-  rehypePlugins: [rehypeSlug],
+  remarkPlugins: [remarkUnwrapImages, remarkToc, remarkMath],
+  rehypePlugins: [rehypeSlug, rehypeKatexSvelte],
 };
 
 /** @type {import('@sveltejs/kit').Config} */
