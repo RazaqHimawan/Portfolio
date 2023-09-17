@@ -36,6 +36,10 @@ h6 {
   margin-block: 1rem;
 }
 
+.prose p + pre {
+  margin-block: 1rem;
+}
+
 .prose :is(ul, ol) {
   list-style-type: decimal;
   padding-inline-start: 2rem;
@@ -46,6 +50,12 @@ h6 {
 
 .prose ul:not(li > ul) {
   padding-block: 1rem;
+  padding-right: 1rem;
+}
+
+.prose ol:not(li > ol) {
+  padding-block: 1rem;
+  padding-right: 1rem;
 }
 
 .prose :is(ul, ol) li {
@@ -53,21 +63,24 @@ h6 {
   padding-inline-start: 0.25rem;
 }
 
+.prose :is(ul) li {
+  list-style-type: disc;
+}
+
 .prose pre {
   max-inline-size: 100%;
   padding: 1rem;
-  margin-top: 2rem;
   border-radius: 8px;
   tab-size: 2;
 }
 
-table,
-td,
-th {
+.prose table,
+.prose td,
+.prose th {
   border: 1px solid;
 }
 
-table {
+.prose table {
   width: 100%;
   border-collapse: collapse;
 }
