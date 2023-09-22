@@ -24,7 +24,7 @@ const { meta, content } = data.post;
     <p>Published at {formatDate(meta.date)}</p>
   </hgroup>
 
-  <div class="mt-1 mb-4">
+  <div class="flex flex-wrap justify-center mt-1 mb-4">
     {#each meta.categories as category}
       <span class="text-dark-text bg-dark-secondary mr-2 px-2 py-1 rounded-md"
         >&num;{category}</span
