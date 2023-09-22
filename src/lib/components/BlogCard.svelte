@@ -1,5 +1,6 @@
 <script lang="ts">
 import type { Post } from '$lib/types';
+import { formatDate } from '$lib/utils';
 
 export let post: Post;
 </script>
@@ -15,7 +16,8 @@ export let post: Post;
     <p class="line-clamp-4 my-2">
       {post.description}
     </p>
-    <p class="text-end text-dark-secondary dark:text-dark-accent">{post.date}</p
+    <p class="text-end text-dark-secondary dark:text-dark-accent"
+      >{formatDate(post.date, 'long', 'id')}</p
     >
   </a>
 </div>
