@@ -1,13 +1,6 @@
-import type { Post } from '$lib/types';
+import { redirect } from '@sveltejs/kit';
+import type { PageLoad } from './$types';
 
-export function load({ fetch }) {
-  async function getPosts() {
-    const res = await fetch('/api/posts');
-    const posts: Post[] = await res.json();
-    return posts;
-  }
-
-  return {
-    posts: getPosts(),
-  };
-}
+export const load: PageLoad = async () => {
+  throw redirect(301, '/blog/1');
+};

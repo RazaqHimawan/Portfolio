@@ -3,7 +3,10 @@ import { error } from '@sveltejs/kit';
 export async function load({ params }) {
   async function getPost() {
     try {
-      const post = await import(`../../../lib/data/posts/${params.posts}.md`);
+      const post = await import(
+        `../../../../lib/data/posts/${params.posts}.md`
+      );
+
       return {
         content: post.default,
         meta: post.metadata,
@@ -12,6 +15,7 @@ export async function load({ params }) {
       throw error(404, `Could not find ${params.posts}`);
     }
   }
+
   return {
     post: getPost(),
   };

@@ -3,13 +3,14 @@ import type { Post } from '$lib/types';
 import { formatDate } from '$lib/utils';
 
 export let post: Post;
+export let page: number;
 </script>
 
 <div
   class="w-80 bg-primary secondary rounded-lg transition-all duration-500 dark:bg-dark-secondary hover:scale-105"
 >
   <a
-    href="/blog/{post.slug}"
+    href="/blog/{page}/{post.slug}"
     class="block p-4"
   >
     <h3 class="text-2xl font-bold uppercase">{post.title}</h3>
