@@ -15,7 +15,7 @@ $: currentPage = Number($page.params.page);
 </svelte:head>
 <h2 class="text-3xl font-semibold">Latest</h2>
 
-<section class="h-[500px] flex flex-col my-8">
+<section class="h-full flex flex-grow flex-col my-8">
   {#each data.posts.postsOnPage as post (post.slug)}
     <BlogCard
       page={1}
