@@ -26,6 +26,10 @@ h6 {
   font-size: 1rem;
 }
 
+.prose {
+  width: 100%;
+}
+
 .prose :is(h2, h3, h4, h5, h6) {
   font-weight: 600;
   margin-top: 1rem;
@@ -72,6 +76,7 @@ h6 {
   padding: 1rem;
   border-radius: 8px;
   tab-size: 2;
+  overflow-x: scroll;
 }
 
 .prose table,
@@ -83,6 +88,10 @@ h6 {
 .prose table {
   width: 100%;
   border-collapse: collapse;
+}
+
+.prose td {
+  padding: 0.7rem;
 }
 
 .pagination {
