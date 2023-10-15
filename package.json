@@ -25,6 +25,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"mermaid": "^10.5.0",
 		"rehype-katex-svelte": "^1.2.0",
 		"rehype-slug": "^5.1.0",
 		"remark-toc": "^8.0.1",

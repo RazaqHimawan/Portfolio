@@ -50,6 +50,8 @@ h6 {
   border-radius: 8px;
   background-color: rgb(21, 30, 29);
   color: #fff;
+  width: 100%;
+  overflow-x: scroll;
 }
 
 .prose ul:not(li > ul) {
@@ -92,6 +94,20 @@ h6 {
 
 .prose td {
   padding: 0.7rem;
+}
+
+.prose .mermaid {
+  border: 1px solid grey;
+  margin-block: 1.25rem;
+}
+
+.er.relationshipLabelBox {
+  opacity: 100% !important;
+  fill: transparent !important;
+}
+
+.er.relationshipLabel {
+  @apply dark:fill-white !text-base;
 }
 
 .pagination {
