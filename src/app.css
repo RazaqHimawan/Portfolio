@@ -99,6 +99,9 @@ h6 {
 .prose .mermaid {
   border: 1px solid grey;
   margin-block: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .er.relationshipLabelBox {
@@ -108,6 +111,10 @@ h6 {
 
 .er.relationshipLabel {
   @apply dark:fill-white !text-base;
+}
+
+.er.entityLabel {
+  @apply !text-base;
 }
 
 .pagination {
