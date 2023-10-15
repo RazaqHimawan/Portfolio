@@ -14,7 +14,7 @@ export let page: number;
     class="block p-4"
   >
     <h3 class="text-2xl font-bold uppercase">{post.title}</h3>
-    <p class="line-clamp-4 my-2">
+    <p class="line-clamp-1 my-2">
       {post.description}
     </p>
     <p class="text-end text-dark-secondary dark:text-dark-accent"
