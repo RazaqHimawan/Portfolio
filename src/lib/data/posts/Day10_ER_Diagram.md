@@ -157,7 +157,7 @@ Tipe-tipe kardinalitas:
 - Banyak Ke satu
 - Banyak ke Banyak
 
-## Key
+### Key
 
 Merupakan satu atau gabungan dari beberapa atribut yang dapat membedakan semua row dalam relasi secara unik.
 
