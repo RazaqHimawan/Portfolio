@@ -1,5 +1,5 @@
 ---
-title: Day 12
+title: Day 12a
 description: SQL Update, Delete, Select, Order By And Pattern Matching
 date: '2023-10-14'
 categories:
