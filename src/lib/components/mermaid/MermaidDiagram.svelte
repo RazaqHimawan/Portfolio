@@ -2,7 +2,7 @@
 import mermaid from 'mermaid';
 import { onMount } from 'svelte';
 
-let erd: HTMLPreElement;
+let diagram: HTMLPreElement;
 
 mermaid.initialize({
   startOnLoad: false,
@@ -10,12 +10,12 @@ mermaid.initialize({
 });
 
 onMount(() => {
-  mermaid.run({ nodes: [erd] });
+  mermaid.run({ nodes: [diagram] });
 });
 </script>
 
 <pre
   class="mermaid"
-  bind:this={erd}>
+  bind:this={diagram}>
     <slot />
 </pre>

@@ -10,7 +10,7 @@ published: true
 ---
 
 <script>
-    import Erd from '$lib/components/erd/erd.svelte';
+    import MermaidDiagram from '$lib/components/mermaid/MermaidDiagram.svelte';
 </script>
 
 ## Table of Contents
@@ -54,7 +54,7 @@ Notasi Entitas Lemah ditandai dengan tidak adanya _primary key_ dan membutuhkan 
 
 Notasi Relasi untuk himpunan entitas lemah digambarkan garis putus-putus yang saling terhubung antar entity atau double diamond.
 
-<Erd>
+<MermaidDiagram>
     {`
     erDiagram
         PEGAWAI ||..o{ TUNJANGAN : mendapatkan
@@ -69,7 +69,7 @@ Notasi Relasi untuk himpunan entitas lemah digambarkan garis putus-putus yang sa
             int besar_tunjangan
         }
     `}
-</Erd>
+</MermaidDiagram>
 
 **Tunjangan** merupakan entitas lemah karena tunjangan
 bergantung pada pegawai (tidak ada tunjangan jika tidak
@@ -99,7 +99,7 @@ Tipe-tipe atribut :
 
 - **Atribut Kunci** diberi tanda #, garis bawah ataupun singkatan (PK = Primary Key, FK = Foreign Key, UK = Unique Key)
 
-<Erd>
+<MermaidDiagram>
   {`
   erDiagram
     MAHASISWA ||--o{ ORGANISASI : bergabung 
@@ -118,7 +118,7 @@ Tipe-tipe atribut :
         string jenis
     }
   `}
-</Erd>
+</MermaidDiagram>
 
 **tanda $[\ ]$** menunjukkan atribut yang multivalued.  
 **tanda (derived)** menunjukkan atribut turunan.
@@ -170,21 +170,21 @@ Merupakan satu atau gabungan dari beberapa atribut yang dapat membedakan semua r
 ### Crow's Foot
 
 - **Exactly One**
-  <Erd>
+  <MermaidDiagram>
   {`erDiagram A ||--|| B : ""`}
-  </Erd>
+  </MermaidDiagram>
 
 - **Zero or One**
-  <Erd>
+  <MermaidDiagram>
   {`erDiagram A |o--o| B : ""`}
-  </Erd>
+  </MermaidDiagram>
 
 - **One or More**
-  <Erd>
+  <MermaidDiagram>
   {`erDiagram A }|--|{ B : ""`}
-  </Erd>
+  </MermaidDiagram>
 
 - **Zero or More**
-  <Erd>
+  <MermaidDiagram>
   {`erDiagram A }o--o{ B : ""`}
-  </Erd>
+  </MermaidDiagram>
