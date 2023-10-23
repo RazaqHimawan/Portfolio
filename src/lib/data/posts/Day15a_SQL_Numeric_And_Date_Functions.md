@@ -60,7 +60,7 @@ SELECT ROUND(angka, desimal);
 SELECT TRUNCATE(angka, desimal);
 ```
 
-### Mengembalikan Nilai Random Dari <br /> ($angka \geq 0\ and\ angka \lt 1$)
+### Mengembalikan Nilai Random Dari angka lebih dari 0 dan kurang dari 1
 
 ```sql
 SELECT RAND();
