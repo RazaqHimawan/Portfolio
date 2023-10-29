@@ -368,7 +368,7 @@ Merupakan satu atau gabungan dari beberapa atribut yang dapat membedakan semua r
 - **Foreign Key** : Kumpulan kolom dalam tabel yang digunakan untuk membuat tautan antara data dalam dua tabel.
 - **Unique Key** : Menerapkan batasan keunikan pada nilai dalam kolom (atau kumpulan kolom) dalam tabel, sama seperti kunci utama. Namun, tidak seperti kunci utama, Unique Key mengizinkan setidaknya satu nilai NULL.
 
-#### Crow's Foot
+### Crow's Foot
 
 - **Exactly One**
   <MermaidDiagram>
