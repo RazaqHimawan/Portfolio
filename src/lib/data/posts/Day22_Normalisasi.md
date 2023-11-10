@@ -39,7 +39,7 @@ Konsep key penting untuk memahami keterkaitan antar atribut data dalam tabel dan
 Dalam setiap tabel terdapat 3 macam key.
 
 1. **Super Key**
-   Suatu atribut atau gbunang atribut (kolom) pada tabel yang dapat membedakan semua baris secara unik.
+   Suatu atribut atau gabungan atribut (kolom) pada tabel yang dapat membedakan semua baris secara unik.
 
 2. **Candidate Key**
    Disebut juga dengan minimal super key yang tidak mengandung super key yang lain. Setiap candidate key pasti merupakan super key, namun tidak semua super key akan menjadi candidate key.
