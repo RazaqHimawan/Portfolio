@@ -99,7 +99,7 @@ Contoh:
 
 Mencari $PBB(45,36)$
 
-$45 = 36 \cdot 1 + 9$
+$45 = 36 \cdot 1 + 9$  
 $36 = 9 \cdot 4 + 0$
 
 Jadi, $PBB(45,36) = 9$
