@@ -1,6 +1,6 @@
 ---
 title: Day 24b
-description: Teori Bilangan
+description: Kombinatorial
 date: '2023-11-18'
 categories:
   - matematika diskrit
