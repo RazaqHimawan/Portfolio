@@ -35,7 +35,7 @@ perkalian.
 Penyelesaian:
 
 a. Dengan kaidah perkalian: $(5)(4)(3) = 60$ buah  
-&emsp; &nbsp; &nbsp; Dengan rumus permutasi: $\large P(5, 3) = {5! \over (5 – 3)!} = 60$
+&emsp; &nbsp; &nbsp; Dengan rumus permutasi: $\large P(5, 3) = {5! \over (5 - 3)!} = 60$
 
 b. Tidak dapat diselesaikan dengan rumus permutasi.  
 &emsp; &nbsp; &nbsp; Dengan kiadah perkalian: $(5)(5)(5) = 53 = 125.$
