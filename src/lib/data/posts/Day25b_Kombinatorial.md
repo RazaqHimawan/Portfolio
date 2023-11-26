@@ -87,6 +87,6 @@ $!$ = simbol faktorial
 
   $\large C(52,5) = {52! \over 5!(52-5)!}$
 
-  $\large C(52,5) = {52 \times 51 \times 50 \times 49 \times 48! \over 5 \times 4 \times 3 \times 2 \times 1!}$
+  $\large C(52,5) = {52 \times 51 \times 50 \times 49 \times 48! \over 5 \times 4 \times 3 \times 2 \times 1}$
 
   $\large C(52,5) = 2.598.960$
