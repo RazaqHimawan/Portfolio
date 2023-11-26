@@ -1,5 +1,5 @@
 ---
-title: Day 24a
+title: Day 25a
 description: Menggunakan Fungsi SQL
 date: '2023-11-18'
 categories:

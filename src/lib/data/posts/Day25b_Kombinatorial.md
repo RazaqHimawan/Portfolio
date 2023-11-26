@@ -1,5 +1,5 @@
 ---
-title: Day 24b
+title: Day 25b
 description: Kombinatorial
 date: '2023-11-18'
 categories:

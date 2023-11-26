@@ -1,7 +1,7 @@
 ---
-title: Day 22
-description: Normalisasi
-date: '2023-11-09'
+title: Day 26
+description: Review Tugas Normalisasi
+date: '2023-11-23'
 categories:
   - database
 
