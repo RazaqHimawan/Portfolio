@@ -1,7 +1,7 @@
 ---
 title: Day 28
 description: MS Excel
-date: '2023-12-02'
+date: '2023-12-01'
 categories:
   - aplikasi komputer
   - ms excel
