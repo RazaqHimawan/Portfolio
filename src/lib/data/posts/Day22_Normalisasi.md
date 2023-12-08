@@ -86,12 +86,3 @@ Jenis-jenis ketergantungan Fungsional:
    kd_jur $\to$ nama_jur
 
    Dengan demikian disimpulkan bahwa **nama_jur** bergantung secara transitif terhadap **nim** melalui **kd_jur** atau **nim** $\to$ **nama_jur** secara transitif melalui **kd_jur**.
-
-### Bentuk Normalisasi
-
-#### First Normal Form $(1^{st} NF)$
-
-Kriteria $(1^{st} NF)$:
-
-- Tidak ada atribut (kolom) pada tabel yang bersifat multivalue.
-- Tidak memiliki lebih dari satu atribut dengan domain yang sama (dalam satu tabel memiliki lebih dari 1 kolom yang digunakan untuk menyimpan data yang jenisnya sama).
