@@ -118,7 +118,7 @@ Jumlah derajat semua simpul pada suatu graf adalah genap, yaitu dua kali jumlah 
 
 Dengan kata lain, jika
 
-G = (V, E),\ maka\ \sum\limits_{v \in V} d(v) = 2|E|
+$G = (V, E),\ maka\ \sum\limits_{v \in V} d(v) = 2|E|$
 
 
 ### Akibat Dari Lemma (Corollary)
