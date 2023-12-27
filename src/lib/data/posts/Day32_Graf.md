@@ -49,6 +49,7 @@ Contoh:
     B---|e5| D
     D---|e6| C
     C---|e7| D
+    C---|e8| C
 `}
 </MermaidDiagram>
 
@@ -117,9 +118,8 @@ Jumlah derajat semua simpul pada suatu graf adalah genap, yaitu dua kali jumlah 
 
 Dengan kata lain, jika
 
-$$
-\large G = (V, E),\ maka\ \sum\limits_{v \in V} d(v) = 2|E|
-$$
+G = (V, E),\ maka\ \sum\limits_{v \in V} d(v) = 2|E|
+
 
 ### Akibat Dari Lemma (Corollary)
 
