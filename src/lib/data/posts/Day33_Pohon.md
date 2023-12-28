@@ -21,6 +21,7 @@ lepas.
 ### Teorema
 
 Misalkan $G = (V, E)$ adalah graf tak-berarah sederhana dan jumlah simpulnya $n$. Maka, semua pernyataan di bawah ini adalah ekivalen:
+<br>
 
 1. $G$ adalah pohon.
 2. Setiap pasang simpul di dalam $G$ terhubung dengan lintasan tunggal.
@@ -41,6 +42,7 @@ rentang.
 #### Pohon Rentang Minimum
 
 Dalam lingkup permasalahan pohon rentang minimum. Untuk mencari pohon rentang dengan total bobot minimum, cara yang paling sederhana adalah dengan mendaftarkan semua pohon rentang yang dibuat dan menghitung bobotnya. Selanjutnya dipilih total bobot yang paling kecil. Metode ini tidak efisien terutama pada graf yang cukup besar.
+<br>
 
 - Algoritma kruskal  
   Sebelum langkah pertama, yang harus dilakukan adalah sisi-sisi dari graf diurut menaik berdasarkan bobotnya mulai dari bobot terkecil sampai terbesar. Pada setiap langkah dipilih sisi dengan bobot terkecil, tetapi tidak membentuk loop dengan sisi-sisi yang sudah dipilih terdahulu (rangkaian). Langkah-langkah pada Algoritma Kruskal, adalah:
