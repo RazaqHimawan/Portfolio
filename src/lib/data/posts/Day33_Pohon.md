@@ -1,7 +1,7 @@
 ---
 title: Day 34
 description: Pohon
-date: '2023-12-28'
+date: '2023-12-27'
 categories:
   - matematika diskrit
   - pohon
