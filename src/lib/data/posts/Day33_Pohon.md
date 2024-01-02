@@ -1,5 +1,5 @@
 ---
-title: Day 34
+title: Day 33
 description: Pohon
 date: '2023-12-27'
 categories:
