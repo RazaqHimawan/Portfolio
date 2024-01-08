@@ -58,7 +58,7 @@ Kata kunci FULL OUTER JOIN mengembalikan semua record ketika ada kecocokan pada 
 ```sql
 SELECT nama_kolom
 FROM tabel1
-RIGHT JOIN tabel2
+FULL OUTER JOIN tabel2
 ON tabel1.nama_kolom = table2.nama_kolom
 WHERE kondisi;
 ```
