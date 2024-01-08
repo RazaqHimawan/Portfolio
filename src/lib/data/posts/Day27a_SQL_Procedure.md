@@ -23,23 +23,31 @@ Anda juga dapat meneruskan parameter ke Stored Procedure, sehingga Stored Proced
 Membuat Procedure.
 
 ```sql
-CREATE PROCEDURE nama_procedure
-AS
-sql_statement
-GO;
+CREATE PROCEDURE nama_prosedur()
+BEGIN
+    sql_statement;
+END;
 ```
 
 Membuat Procedure dengan parameter.
 
 ```sql
-CREATE PROCEDURE nama_procedure @nama_parameter tipe_data
-AS
-SELECT * FROM nama_tabel WHERE nama_parameter = @nama_parameter
-GO;
+CREATE PROCEDURE nama_prosedur(
+    IN param1 INT
+)
+BEGIN
+    SELECT *
+    FROM tabel
+    WHERE kolom1 = param1 ;
+END;
 ```
 
 Menjalankan Procedure.
 
 ```sql
-EXEC nama_procedure;
+-- Tanpa parameter
+CALL nama_prosedur();
+
+-- Dengan parameter
+CALL nama_prosedur(nilai_param);
 ```
