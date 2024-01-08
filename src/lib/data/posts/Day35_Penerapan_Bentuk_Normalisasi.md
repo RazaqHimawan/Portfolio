@@ -1,7 +1,7 @@
 ---
 title: Day 35
 description: Penerapan Bentuk Normalisasi
-date: '2023-01-04'
+date: '2024-01-04'
 categories:
   - database
 
