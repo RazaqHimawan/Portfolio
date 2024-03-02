@@ -200,7 +200,7 @@ $A_{mn} \times B_{pq} = C_{mq}$
 
 contoh:
 
-$$
+$
 A \times B =
 \begin{bmatrix}
     a & b & d \\
@@ -212,12 +212,15 @@ A \times B =
     r & s \\
     t & u
 \end{bmatrix}_{3 \times 2}
-=
+$
+
+$
+A \times B =
 \begin{bmatrix}
-    ap + br + dt & aq + bs + du \\
-    ep + fr + gt & eq + fs + gu
+ap + br + dt & aq + bs + du \\
+ep + fr + gt & eq + fs + gu
 \end{bmatrix}_{2 \times 2}
-$$
+$
 
 #### Perkalian Skalar Matriks
 
