@@ -134,19 +134,21 @@ notasi: $A^{-1}$
 
 contoh:
 
-$$
+$
 A =
 \begin{bmatrix}
     a & b \\
     c & d
 \end{bmatrix}
-\rightarrow
+$
+
+$
 A^{-1} = {1 \over ad-bc}
 \begin{bmatrix}
     d & -b \\
     -c & a
 \end{bmatrix}
-$$
+$
 
 ### Operasi Matriks
 
