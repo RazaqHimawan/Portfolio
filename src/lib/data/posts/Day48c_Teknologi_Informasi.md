@@ -1,6 +1,6 @@
 ---
 title: Day 48c
-description: Sistem Informasi
+description: Teknologi Informasi
 date: '2024-3-13'
 categories:
   - Teknologi Informasi dan Komunikasi
