@@ -1,7 +1,7 @@
 ---
-title: Day 54b
+title: Day 55a
 description: Revolusi Industri dan Teknologi Digital
-date: '2024-3-20'
+date: '2024-3-21'
 categories:
   - Teknologi Informasi dan Informatika
 published: true
