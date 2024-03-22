@@ -3,7 +3,7 @@ title: Day 49b
 description: Slot Ekspansi dan BIOS/UEFI
 date: '2024-3-14'
 categories:
-  - Teknologi Informasi dan Komunikasi
+  - Hardware dan Jaringan
 published: true
 ---
 
