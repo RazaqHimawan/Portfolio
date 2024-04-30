@@ -10,4 +10,3 @@ published: true
 ## Repo Pemograman Web
 
 - [Repo Pemograman Web](https://github.com/razaq-himawan/pemograman-web)
-- [Web Pemograman Web](https://razaq-himawan.github.io/pemograman-web/)
