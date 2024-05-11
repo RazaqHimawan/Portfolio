@@ -9,4 +9,4 @@ published: true
 
 ## Repo Pemograman Web
 
-- [Repo CRUD Mahasiswa](TODO)
+- [Repo CRUD Mahasiswa](https://github.com/razaq-himawan/pemograman-web/tree/main/pertemuan10)
