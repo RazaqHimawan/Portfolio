@@ -9,4 +9,4 @@ published: true
 
 ## Repo Form Teman
 
-- [Repo Sewa Motor + Database](https://github.com/razaq-himawan/PemogramanDasar/tree/main/Latihan_23322001_Razaq)
+- [Repo Sewa Motor + Database](https://github.com/razaq-himawan/PemogramanDasar/tree/main/Penjualan%20Motor)
