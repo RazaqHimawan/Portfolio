@@ -61,21 +61,21 @@ TCP/IP Transmission Control Protocol/Internet Protocol adalah seperangkat protok
 #### Kelas A (Class A)
 
 - Rentang Alamat: 0.0.0.0 hingga 127.255.255.255
-- Format: N.N.N.N (di mana N adalah bilangan 0-255)
+- Format: N.H.H.H (di mana N = Network, H = Host)
 - Karakteristik: Kelas A ditandai dengan bit pertama (bit yang paling kiri) pada alamat IP yang selalu bernilai 0. Bit pertama ini menandakan bahwa alamat ini adalah kelas A.
 - Penggunaan: Kelas A sering dialokasikan untuk organisasi besar karena menyediakan sejumlah besar alamat IP.
 
 #### Kelas B (Class B)
 
 - Rentang Alamat: 128.0.0.0 hingga 191.255.255.255
-- Format: N.N.N.N
+- Format: N.N.H.H (di mana N = Network, H = Host)
 - Karakteristik: Kelas B ditandai dengan dua bit pertama yang selalu bernilai 10. Bit pertama dan kedua ini menandakan bahwa alamat ini adalah kelas B.
 - Penggunaan: Kelas B umumnya digunakan oleh organisasi menengah yang membutuhkan sejumlah alamat IP yang cukup besar.
 
 #### Kelas C (Class C)
 
 - Rentang Alamat: 192.0.0.0 hingga 223.255.255.255
-- Format: N.N.N.N
+- Format: N.N.N.H (di mana N = Network, H = Host)
 - Karakteristik: Kelas C ditandai dengan tiga bit pertama yang selalu bernilai 110. Bit pertama, kedua, dan ketiga ini menandakan bahwa alamat ini adalah kelas C.
 - Penggunaan: Kelas C sering digunakan oleh organisasi kecil karena memberikan jumlah alamat IP yang lebih terbatas dibandingkan kelas A dan B.
 
