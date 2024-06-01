@@ -7,8 +7,6 @@ export let isOpen = false;
 export let modalClick: () => void;
 const anchor =
   'flex px-4 py-2 shadow-sm rounded-xl border-2 border-accent text-text font-semibold text-lg hover:scale-110 hover:opacity-70 dark:border-dark-accent dark:text-dark-text';
-
-console.log($page.route.id);
 </script>
 
 <!-- svelte-ignore a11y-click-events-have-key-events -->
