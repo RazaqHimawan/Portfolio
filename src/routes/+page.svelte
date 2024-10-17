@@ -5,7 +5,7 @@ import Skills from '$lib/components/Skills.svelte';
 
 const project = {
   title: 'Portfolio Website',
-  description: 'My portfolio website',
+  description: 'Razaq Himawan portfolio website',
   githubLink: '/',
   websiteLink: '/',
 };

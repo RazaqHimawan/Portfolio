@@ -17,6 +17,6 @@ export async function load({ params }) {
   }
 
   return {
-    post: getPost(),
+    post: await getPost(),
   };
 }

@@ -5,7 +5,7 @@
     👋
   </h1>
   <p class="text-lg font-normal mt-2">
-    I am a front-end developer who is currently based in Bandung, Indonesia.
+    I am a web developer who is currently based in Bandung, Indonesia.
   </p>
 </hgroup>
 

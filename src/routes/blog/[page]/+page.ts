@@ -26,6 +26,6 @@ export async function load({ fetch, params }) {
   }
 
   return {
-    posts: getPosts(Number(params.page)),
+    posts: await getPosts(Number(params.page)),
   };
 }
