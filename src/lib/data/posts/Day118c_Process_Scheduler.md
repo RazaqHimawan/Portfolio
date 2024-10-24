@@ -29,7 +29,7 @@ Process Scheduler adalah komponen penting dalam sistem operasi yang bertanggung 
 1. **First-Come, First-Served (FCFS)**  
    Proses yang tiba lebih dulu akan dieksekusi lebih dulu, mirip dengan sistem antrian.
 
-2. **Shortest Job Next (SJN)**  
+2. **Shortest Job First (SJF)**  
    Proses dengan waktu eksekusi terpendek dieksekusi terlebih dahulu.
 
 3. **Round Robin (RR)**  
@@ -55,7 +55,7 @@ Process Scheduler adalah komponen penting dalam sistem operasi yang bertanggung 
 - **Masalah Convoy Effect**: Proses dengan waktu eksekusi yang lama dapat menghambat proses yang lebih pendek, menyebabkan waktu tunggu yang lama untuk proses lain.
 - **Waktu rata-rata tunggu yang tinggi**: Dapat menghasilkan waktu tunggu yang lebih tinggi, terutama jika proses dengan burst time panjang datang lebih awal.
 
-#### 2. Shortest Job Next (SJN)
+#### 2. Shortest Job First (SJF)
 
 ##### Kelebihan:
 
